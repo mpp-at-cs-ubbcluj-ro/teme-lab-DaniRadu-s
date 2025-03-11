@@ -8,6 +8,9 @@
       <module name="startGradle" target="23" />
       <module name="startGradle.main" target="23" />
       <module name="startGradle.test" target="23" />
+      <module name="TestBD" target="23" />
+      <module name="TestBD.main" target="23" />
+      <module name="TestBD.test" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
