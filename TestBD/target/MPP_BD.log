@@ -115,3 +115,21 @@
 11 Mar 2025 19:14:43,804 TRACE ro.mpp2025.domain.JdbcUtils 48 getConnection - Enter
 11 Mar 2025 19:14:43,804 TRACE ro.mpp2025.domain.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c86a017)
 11 Mar 2025 19:14:43,804 TRACE ro.mpp2025.repository.CarsDBRepository 51 findByManufacturer - Exit with([Id=1 Dacia Sandero 2019])
+18 Mar 2025 18:26:44,562 INFO  ro.mpp2025.repository.CarsDBRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\mariu\Desktop\ce vreau eu\materii sem2 an 2\MPP\teme-lab-DaniRadu-s\TestBD\identifier.sqlite} 
+18 Mar 2025 18:26:44,602 TRACE ro.mpp2025.repository.CarsDBRepository 85 add - Enter saving task Id=0 Tesla Model S 2019
+18 Mar 2025 18:26:44,603 TRACE ro.mpp2025.domain.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 18:26:44,603 TRACE ro.mpp2025.domain.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 18:26:44,603 INFO  ro.mpp2025.domain.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\mariu\Desktop\ce vreau eu\materii sem2 an 2\MPP\teme-lab-DaniRadu-s\TestBD\identifier.sqlite
+18 Mar 2025 18:26:44,604 INFO  ro.mpp2025.domain.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 18:26:44,604 INFO  ro.mpp2025.domain.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 18:26:44,787 TRACE ro.mpp2025.domain.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5276d6ee)
+18 Mar 2025 18:26:44,797 TRACE ro.mpp2025.repository.CarsDBRepository 92 add - save 1 instances
+18 Mar 2025 18:26:44,797 TRACE ro.mpp2025.repository.CarsDBRepository 98 add - Exit
+18 Mar 2025 18:26:44,798 TRACE ro.mpp2025.repository.CarsDBRepository 121 findAll - Enter
+18 Mar 2025 18:26:44,798 TRACE ro.mpp2025.domain.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 18:26:44,798 TRACE ro.mpp2025.domain.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5276d6ee)
+18 Mar 2025 18:26:44,801 TRACE ro.mpp2025.repository.CarsDBRepository 141 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Tesla Model S 2019, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019])
+18 Mar 2025 18:26:44,802 TRACE ro.mpp2025.repository.CarsDBRepository 31 findByManufacturer - Enter Finding cars by manufacturer: Dacia
+18 Mar 2025 18:26:44,802 TRACE ro.mpp2025.domain.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 18:26:44,802 TRACE ro.mpp2025.domain.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5276d6ee)
+18 Mar 2025 18:26:44,802 TRACE ro.mpp2025.repository.CarsDBRepository 51 findByManufacturer - Exit with([Id=1 Dacia Sandero 2019])
